@@ -1,0 +1,59 @@
+.hero-background {
+    background-color: var(--secondary-fond-color);
+    max-width: 1600px;
+    margin: auto;
+}
+
+.hero {
+    text-align: center;
+    background-color: #C4C4C4;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: var(--secondary-fond-color);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('../images/hero-foto.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero__title {
+    width: 696px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: var(--fond-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero__button--primary {
+    /*кнопка в герої*/
+    color: var(--fond-color);
+    background-color: var(--accent-color);
+
+    min-width: 216px;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+
+    transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
+}
+
+.hero__button--primary:hover,
+.hero__button--primary:focus {
+    background-color: #188CE8;
+    color: var(--fond-color);
+}
