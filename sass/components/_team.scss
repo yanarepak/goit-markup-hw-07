@@ -61,6 +61,11 @@
     height: 20px;
     fill: #AFB1B8;
     transition: fill var(--transition-dur-and-func);
+
+    .sociale-list__link:hover &,
+    .sociale-list__link:focus &{
+        fill: var(--fond-color)
+        }
 }
 
 .sociale-list__link {
@@ -75,14 +80,9 @@
     background-color: var(--fond-color);
 
     transition: background-color var(--transition-dur-and-func);
-}
 
-.sociale-list__link:hover,
-.sociale-list__link:focus {
-    background-color: var(--accent-color);
-}
-
-.sociale-list__link:hover .social-list__icon,
-.sociale-list__link:focus .social-list__icon {
-    fill: var(--fond-color)
+    &hover,
+    &:focus {
+        background-color: var(--accent-color);
+        }
 }

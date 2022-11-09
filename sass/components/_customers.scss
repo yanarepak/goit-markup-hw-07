@@ -31,6 +31,12 @@
     height: 60px;
     fill: #AFB1B8;
 
+    .customers-list__link:hover &,
+    .customers-list__link:focus &{
+         fill: var(--accent-color);
+         border-color: var(--accent-color);
+        }
+
 }
 
 .customers-list__link {
@@ -44,16 +50,9 @@
     border-radius: 4px;
     background: var(--fond-color);
 
-}
-
-.customers-list__link:hover .customers-list__icon,
-.customers-list__link:focus .customers-list__icon {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
-}
-
-.customers-list__link:hover,
-.customers-list__link:focus {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+        border-color: var(--accent-color);
+        }
 }

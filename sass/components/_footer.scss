@@ -88,16 +88,11 @@
     background: rgba(255, 255, 255, 0.1);
 
     transition: background-color var(--transition-dur-and-func);
-}
 
-.footer-sociale-list__link:hover,
-.footer-sociale-list__link:focus {
-    background-color: var(--accent-color);
-}
-
-.footer-sociale-list__link:hover .footer-sociale-list__icon,
-.footer-sociale-list__link:focus .footer-sociale-list__icon {
-    fill: var(--fond-color)
+    &:hover,
+    &:focus {
+        background-color: var(--accent-color);
+        }
 }
 
 .footer-sociale-list__icon {
@@ -106,6 +101,11 @@
     fill: var(--fond-color);
 
     transition: fill var(--transition-dur-and-func);
+
+    .footer-sociale-list__link:hover &,
+    .footer-sociale-list__link:focus & {
+        fill: var(--fond-color)
+        }
 }
 
 /* =============FOOTER SUBSCRIBE РОЗСИЛКА В ФУТЕРІ */
@@ -140,6 +140,16 @@
     background: #2F303A;
 
     transition: border-color var(--transition-dur-and-func);
+
+    &::placeholder {
+        font-size: 16px;
+        line-height: 1.25;
+        color: rgba(255, 255, 255, 0.6);
+        }
+
+    &:focus {
+         border-color: var(--accent-color);
+        }
 }
 
 .form-footer__icon {
@@ -148,16 +158,6 @@
     right: 28px;
     transform: translateY(10px);
     fill: var(--fond-color);
-}
-
-.footer-form__input::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-form__input:focus {
-    border-color: var(--accent-color);
 }
 
 .footer-form__btn {
@@ -181,9 +181,9 @@
     color: #FFFFFF;
 
     transition: background-color var(--transition-dur-and-func);
-}
 
-.footer-form__btn:hover,
-.footer-form__btn:focus {
-    background-color: #188CE8;
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+        }
 }

@@ -83,10 +83,10 @@ img {
     cursor: pointer;
     border-color: transparent;
     border: none;
-}
 
-.button:hover,
-.button:focus {
-    color: var(--fond-color);
-    background-color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--fond-color);
+        background-color: var(--accent-color);
+        }
 }

@@ -50,10 +50,10 @@
     letter-spacing: 0.06em;
 
     transition: background-color var(--transition-dur-and-func), color var(--transition-dur-and-func);
-}
 
-.hero__button--primary:hover,
-.hero__button--primary:focus {
-    background-color: #188CE8;
-    color: var(--fond-color);
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+        color: var(--fond-color);
+        }
 }

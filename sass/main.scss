@@ -2,36 +2,19 @@
 @import"./base/normalize";
 @import"./base/fonts";
 @import"./base/reset";
-
-/*Змінні*/ 
+ 
 @import"./utils/vars";
 
-/* СТИЛІ ДЛЯ СТУДІЯ */
-/* Хедер*/
 @import"./components/header";
-
-/* Герой */
 @import"./components/hero";
-
-/* Переваги*/
 @import"./components/features";
-
-/* Робота */
 @import"./components/work";
-
-/* Команда */
 @import"./components/team";
-
-/* Клієнти-компанії */
 @import"./components/customers";
-
-/* Футер */
-@import"./components/footer";
-
-/* Модальне вікно з формою */ 
+@import"./components/footer"; 
+@import"./components/backdrop";
 @import"./components/modal";
-
-/* ПОРТФОЛІО */
+@import"./components/modal-form";
 @import"./components/portfolio";
 
 
