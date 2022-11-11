@@ -1,9 +1,9 @@
-/*ОСНОВНІ СТИЛІ*/
 @import"./base/normalize";
 @import"./base/fonts";
 @import"./base/reset";
+@import"./components/conteiner";
  
-@import"./utils/vars";
+@import"./utils/variables";
 
 @import"./components/header";
 @import"./components/hero";
@@ -16,5 +16,3 @@
 @import"./components/modal";
 @import"./components/modal-form";
 @import"./components/portfolio";
-
-

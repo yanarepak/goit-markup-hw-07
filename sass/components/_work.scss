@@ -1,6 +1,22 @@
-.section-work {
-    padding-top: 47px;
-    padding-bottom: 94px;
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .section-work {
+        display: none;
+    }
+    }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .section-work{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .section-work {
+        display: block;
+        padding-top: 47px;
+        padding-bottom: 94px;
+    }
 }
 
 .work__title {

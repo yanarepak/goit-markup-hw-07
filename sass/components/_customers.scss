@@ -1,6 +1,17 @@
-.customers-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .customers-section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px){}
+
+@media screen and (min-width: 1200px) {
+    .customers-section {
+        padding-top: 94px;
+        padding-bottom: 47px;
+    }
 }
 
 .section-customers__title {

@@ -1,7 +1,22 @@
-.section-team {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    background-color: #F5F4FA;
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .section-team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .section-team {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .section-team {
+        padding-top: 94px;
+        padding-bottom: 47px;
+    }
 }
 
 .section-team__title {
@@ -63,7 +78,7 @@
     transition: fill var(--transition-dur-and-func);
 
     .sociale-list__link:hover &,
-    .sociale-list__link:focus &{
+    .sociale-list__link:focus & {
         fill: var(--fond-color)
         }
 }
@@ -80,9 +95,9 @@
     background-color: var(--fond-color);
 
     transition: background-color var(--transition-dur-and-func);
-
-    &hover,
+    
+    &:hover,
     &:focus {
-        background-color: var(--accent-color);
+         background-color: var(--accent-color);
         }
 }

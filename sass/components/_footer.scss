@@ -59,7 +59,7 @@
     color: var(--accent-color);
 }
 
-/* ==============Приєднуйтесь та іконки============ */
+/* Приєднуйтесь та іконки */
 .footer-sociale-list__title {
     margin-bottom: 20px;
 
@@ -104,11 +104,11 @@
 
     .footer-sociale-list__link:hover &,
     .footer-sociale-list__link:focus & {
-        fill: var(--fond-color)
+        fill: var(--fond-color);
         }
 }
 
-/* =============FOOTER SUBSCRIBE РОЗСИЛКА В ФУТЕРІ */
+/* FOOTER SUBSCRIBE РОЗСИЛКА В ФУТЕРІ */
 .footer-subscribe {
     width: 520px;
     margin-left: 92px;
